@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 History: 1950 – Present</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="site-title">FORMULA 1 HISTORY</h1>
+            <p class="site-subtitle">From 1950 to Present Day</p>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="navigation">
+        <button class="nav-btn active" data-section="cars">Cars</button>
+        <button class="nav-btn" data-section="drivers">Drivers</button>
+        <button class="nav-btn" data-section="champions">Champions</button>
+    </nav>
+
+    <!-- Search and Filter Section -->
+    <div class="controls">
+        <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Search by name, team, or year..."
+        >
+        <select id="filterYear" class="filter-select">
+            <option value="">All Years</option>
+        </select>
+        <select id="filterTeam" class="filter-select">
+            <option value="">All Teams</option>
+        </select>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        <!-- Cars Section -->
+        <section id="cars-section" class="content-section active">
+            <h2 class="section-title">Iconic F1 Cars</h2>
+            <div id="cars-grid" class="grid">
+                <div class="loading">Loading cars...</div>
+            </div>
+        </section>
+
+        <!-- Drivers Section -->
+        <section id="drivers-section" class="content-section">
+            <h2 class="section-title">Legendary Drivers</h2>
+            <div id="drivers-grid" class="grid">
+                <div class="loading">Loading drivers...</div>
+            </div>
+        </section>
+
+        <!-- Champions Section -->
+        <section id="champions-section" class="content-section">
+            <h2 class="section-title">World Champions</h2>
+            <div id="champions-grid" class="grid">
+                <div class="loading">Loading champions...</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Formula 1 History | Educational Project by Viprav Gandamwar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

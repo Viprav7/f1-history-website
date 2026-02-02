@@ -1,0 +1,312 @@
+/* ===========================
+   GLOBAL STYLES & RESET
+   =========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* ===========================
+   HEADER SECTION
+   =========================== */
+.header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #e10600;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #e10600;
+    text-shadow: 0 0 20px rgba(225, 6, 0, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+.site-subtitle {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    color: #aaaaaa;
+    letter-spacing: 2px;
+}
+
+/* ===========================
+   NAVIGATION TABS
+   =========================== */
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    background-color: #15151e;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1f1f2e;
+    border: 2px solid #2a2a3a;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-btn:hover {
+    background-color: #2a2a3a;
+    border-color: #e10600;
+    transform: translateY(-2px);
+}
+
+.nav-btn.active {
+    background-color: #e10600;
+    border-color: #e10600;
+    box-shadow: 0 4px 15px rgba(225, 6, 0, 0.4);
+}
+
+/* ===========================
+   SEARCH & FILTER CONTROLS
+   =========================== */
+.controls {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-input,
+.filter-select {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #1f1f2e;
+    color: #ffffff;
+    border: 2px solid #2a2a3a;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.search-input {
+    flex: 1;
+    max-width: 400px;
+}
+
+.search-input:focus,
+.filter-select:focus {
+    outline: none;
+    border-color: #e10600;
+    box-shadow: 0 0 10px rgba(225, 6, 0, 0.3);
+}
+
+.filter-select {
+    cursor: pointer;
+}
+
+.filter-select option {
+    background-color: #1f1f2e;
+}
+
+/* ===========================
+   MAIN CONTAINER & SECTIONS
+   =========================== */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    min-height: calc(100vh - 400px);
+}
+
+.content-section {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #e10600;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* ===========================
+   GRID LAYOUT
+   =========================== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+/* ===========================
+   CARD STYLES
+   =========================== */
+.card {
+    background: linear-gradient(145deg, #1f1f2e 0%, #15151e 100%);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #2a2a3a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #e10600;
+    box-shadow: 0 10px 30px rgba(225, 6, 0, 0.3);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #0a0a0a;
+    border-bottom: 2px solid #2a2a3a;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.card-subtitle {
+    font-size: 0.95rem;
+    color: #e10600;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-detail {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-detail strong {
+    color: #ffffff;
+    min-width: 80px;
+}
+
+/* ===========================
+   LOADING STATE
+   =========================== */
+.loading {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: #aaaaaa;
+    grid-column: 1 / -1;
+}
+
+/* ===========================
+   NO RESULTS MESSAGE
+   =========================== */
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: #aaaaaa;
+    grid-column: 1 / -1;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+.footer {
+    background-color: #15151e;
+    padding: 2rem;
+    text-align: center;
+    color: #aaaaaa;
+    border-top: 2px solid #2a2a3a;
+    margin-top: 3rem;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    .search-input,
+    .filter-select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .nav-btn {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .header {
+        padding: 2rem 1rem;
+    }
+}

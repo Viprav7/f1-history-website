@@ -1,0 +1,186 @@
+[
+  {
+    "year": 2023,
+    "driver": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "car": "Red Bull RB19",
+    "points": 575,
+    "image": "images/races/2023.jpg"
+  },
+  {
+    "year": 2022,
+    "driver": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "car": "Red Bull RB18",
+    "points": 454,
+    "image": "images/races/2022.jpg"
+  },
+  {
+    "year": 2021,
+    "driver": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "car": "Red Bull RB16B",
+    "points": 395.5,
+    "image": "images/races/2021.jpg"
+  },
+  {
+    "year": 2020,
+    "driver": "Lewis Hamilton",
+    "team": "Mercedes",
+    "car": "Mercedes W11",
+    "points": 347,
+    "image": "images/races/2020.jpg"
+  },
+  {
+    "year": 2019,
+    "driver": "Lewis Hamilton",
+    "team": "Mercedes",
+    "car": "Mercedes W10",
+    "points": 413,
+    "image": "images/races/2019.jpg"
+  },
+  {
+    "year": 2018,
+    "driver": "Lewis Hamilton",
+    "team": "Mercedes",
+    "car": "Mercedes W09",
+    "points": 408,
+    "image": "images/races/2018.jpg"
+  },
+  {
+    "year": 2017,
+    "driver": "Lewis Hamilton",
+    "team": "Mercedes",
+    "car": "Mercedes W08",
+    "points": 363,
+    "image": "images/races/2017.jpg"
+  },
+  {
+    "year": 2016,
+    "driver": "Nico Rosberg",
+    "team": "Mercedes",
+    "car": "Mercedes W07",
+    "points": 385,
+    "image": "images/races/2016.jpg"
+  },
+  {
+    "year": 2015,
+    "driver": "Lewis Hamilton",
+    "team": "Mercedes",
+    "car": "Mercedes W06",
+    "points": 381,
+    "image": "images/races/2015.jpg"
+  },
+  {
+    "year": 2014,
+    "driver": "Lewis Hamilton",
+    "team": "Mercedes",
+    "car": "Mercedes W05",
+    "points": 384,
+    "image": "images/races/2014.jpg"
+  },
+  {
+    "year": 2013,
+    "driver": "Sebastian Vettel",
+    "team": "Red Bull Racing",
+    "car": "Red Bull RB9",
+    "points": 397,
+    "image": "images/races/2013.jpg"
+  },
+  {
+    "year": 2012,
+    "driver": "Sebastian Vettel",
+    "team": "Red Bull Racing",
+    "car": "Red Bull RB8",
+    "points": 281,
+    "image": "images/races/2012.jpg"
+  },
+  {
+    "year": 2011,
+    "driver": "Sebastian Vettel",
+    "team": "Red Bull Racing",
+    "car": "Red Bull RB7",
+    "points": 392,
+    "image": "images/races/2011.jpg"
+  },
+  {
+    "year": 2010,
+    "driver": "Sebastian Vettel",
+    "team": "Red Bull Racing",
+    "car": "Red Bull RB6",
+    "points": 256,
+    "image": "images/races/2010.jpg"
+  },
+  {
+    "year": 2009,
+    "driver": "Jenson Button",
+    "team": "Brawn GP",
+    "car": "Brawn BGP 001",
+    "points": 95,
+    "image": "images/races/2009.jpg"
+  },
+  {
+    "year": 2008,
+    "driver": "Lewis Hamilton",
+    "team": "McLaren",
+    "car": "McLaren MP4-23",
+    "points": 98,
+    "image": "images/races/2008.jpg"
+  },
+  {
+    "year": 2007,
+    "driver": "Kimi Räikkönen",
+    "team": "Ferrari",
+    "car": "Ferrari F2007",
+    "points": 110,
+    "image": "images/races/2007.jpg"
+  },
+  {
+    "year": 2004,
+    "driver": "Michael Schumacher",
+    "team": "Ferrari",
+    "car": "Ferrari F2004",
+    "points": 148,
+    "image": "images/races/2004.jpg"
+  },
+  {
+    "year": 2002,
+    "driver": "Michael Schumacher",
+    "team": "Ferrari",
+    "car": "Ferrari F2002",
+    "points": 144,
+    "image": "images/races/2002.jpg"
+  },
+  {
+    "year": 1998,
+    "driver": "Mika Häkkinen",
+    "team": "McLaren",
+    "car": "McLaren MP4-13",
+    "points": 100,
+    "image": "images/races/1998.jpg"
+  },
+  {
+    "year": 1988,
+    "driver": "Ayrton Senna",
+    "team": "McLaren",
+    "car": "McLaren MP4/4",
+    "points": 94,
+    "image": "images/races/1988.jpg"
+  },
+  {
+    "year": 1976,
+    "driver": "James Hunt",
+    "team": "McLaren",
+    "car": "McLaren M23",
+    "points": 69,
+    "image": "images/races/1976.jpg"
+  },
+  {
+    "year": 1951,
+    "driver": "Juan Manuel Fangio",
+    "team": "Alfa Romeo",
+    "car": "Alfa Romeo 159",
+    "points": 31,
+    "image": "images/races/1951.jpg"
+  }
+]
